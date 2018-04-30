@@ -1,0 +1,1 @@
+ffmpeg -i moon_11.mp4 -r 60 -c:v libvpx-vp9 -quality good 5M -cpu-used 0 -crf 30 -b:v 0 -qmin 1 -qmax 35 -threads 4 -an moon_11.webm

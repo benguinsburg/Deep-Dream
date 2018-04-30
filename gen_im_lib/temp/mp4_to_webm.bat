@@ -1,0 +1,2 @@
+ffmpeg -r 20 -f image2 -s 1002x564 -i persimmon_11_%%d.jpg -vcodec libx264 -crf 10 -pix_fmt yuv420p in.mp4
+ffmpeg -i in.mp4 -r 20 -c:v libvpx -quality good -cpu-used 0 -crf 10 -qmin 8 -qmax 25 -threads 4 -an out.webm
