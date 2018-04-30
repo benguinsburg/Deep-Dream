@@ -224,16 +224,6 @@ def optimize_image(model, session, layer_tensor, image,
     # Copy the image so we don't overwrite the original image.
     img = image.copy()
 
-    # print("Image before:")
-    # plot_image(img)
-    # print("Processing image: ", end="")
-
-    # Use TensorFlow to get the mathematical function for the
-    # gradient of the given layer-tensor with regard to the
-    # input image. This may cause TensorFlow to add the same
-    # math-expressions to the graph each time this function is called.
-    # It may use a lot of RAM and could be moved outside the function.
-    # gradient = model.get_gradient(layer_tensor)
 
     for i in range(num_iterations):
         # Calculate the value of the gradient.
