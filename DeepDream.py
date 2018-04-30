@@ -237,10 +237,7 @@ def optimize_image(model, session, layer_tensor, image,
         # nice, smooth images. You can try and change the formulas.
         # The blur-amount is called sigma (0=no blur, 1=low blur, etc.)
         # We could call gaussian_filter(grad, sigma=(sigma, sigma, 0.0))
-        # which would not blur the colour-channel. This tends to
-        # give psychadelic / pastel colours in the resulting images.
-        # When the colour-channel is also blurred the colours of the
-        # input image are mostly retained in the output image.
+        # which would not blur the colour-channel. 
         sigma = (i * 4.0) / num_iterations + 0.5
         # grad_smooth1 = gaussian_filter(grad, sigma=(sigma, sigma, 0.0))
         # grad_smooth2 = gaussian_filter(grad, sigma=(sigma*2, sigma*0.2, 0.0))

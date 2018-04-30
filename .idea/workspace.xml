@@ -16,8 +16,8 @@
       <file leaf-file-name="DeepDream.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeepDream.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="239" column="51" lean-forward="false" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -63,6 +63,7 @@
       <find>EXAMPLES</find>
       <find>resize_image</find>
       <find>images</find>
+      <find>grad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -302,7 +303,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/DeepDream.py</url>
-          <line>517</line>
+          <line>514</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
@@ -557,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepDream.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="239" column="51" lean-forward="false" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
