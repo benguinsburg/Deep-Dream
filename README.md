@@ -13,8 +13,8 @@ optional arguments:
   -params PARAMS [PARAMS ...]
                         [layer] [subset start] [subset end]
                         
-  -rescale RESCALE      scale factor for input image
-  -mode MODE            image, gif, image_as_mp4
-  -c                    get contrasted image
-  -l                    load previous random tensor set
-  -r                    use random distribution of tensors
+-rescale RESCALE      scale factor for input image
+-mode MODE            image, gif, image_as_mp4
+-c                    get contrasted image
+-l                    load previous random tensor set
+-r                    use random distribution of tensors
