@@ -15,12 +15,12 @@ optional arguments:
   -params PARAMS [PARAMS ...]
                         [layer] [subset start] [subset end]
                         
--rescale RESCALE      scale factor for input image
+-rescale RESCALE:      scale factor for input image
 
--mode MODE            image, gif, image_as_mp4
+-mode MODE:            image, gif, image_as_mp4
 
--c                    get contrasted image
+-c:                    get contrasted image
 
--l                    load previous random tensor set
+-l:                    load previous random tensor set
 
--r                    use random distribution of tensors
+-r:                    use random distribution of tensors
