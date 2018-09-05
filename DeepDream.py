@@ -505,7 +505,7 @@ if __name__ == '__main__':
                         help='scale factor for input image')
     parser.add_argument('-mode', type=str, default='image',
                         help='image, gif, image_as_mp4')
-    parser.add_argument('-c', action="store_true", default=False, help="get contrasted image")
+    parser.add_argument('-c', action="store_true", default=False, help="use contrasted image")
     parser.add_argument('-l', action="store_true", default=False, help="load previous random tensor set")
     parser.add_argument('-r', action="store_true", default=False, help="use random distribution of tensors")
 
