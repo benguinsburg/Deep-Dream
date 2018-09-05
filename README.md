@@ -8,7 +8,7 @@ Run deep dream algorithm on an image.
 
 
 optional arguments:
-  -h, --help:          show this help message and exit
+  -h, --help:           show this help message and exit
   
   -name NAME:          name of the image in im_lib
   
@@ -18,7 +18,7 @@ optional arguments:
 
 -mode MODE:            image, gif, image_as_mp4
 
--c:                    get contrasted image
+-c:                    use contrasted image
 
 -l:                    load previous random tensor set
 
