@@ -8,12 +8,11 @@ Run deep dream algorithm on an image.
 
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help:          show this help message and exit
   
-  -name NAME            name of the image in im_lib
+  -name NAME:          name of the image in im_lib
   
-  -params PARAMS [PARAMS ...]
-                        [layer] [subset start] [subset end]
+  -params PARAMS:      [layer] [subset start] [subset end]
                         
 -rescale RESCALE:      scale factor for input image
 
